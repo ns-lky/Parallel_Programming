@@ -92,7 +92,7 @@ bool verify(double a, double b) {
 }
 
 int main() {
-    // 测试规模：2^15 到 2^26
+    // 测试规模：2^15 到 2^29
     vector<int> sizes;
     for (int i = 15; i <= 29; ++i) {
         sizes.push_back(1 << i);   
